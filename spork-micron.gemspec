@@ -13,6 +13,16 @@ Gem::Specification.new do |s|
   s.date = "2013-10-03"
   s.description = "A micron plugin for Spork"
   s.email = "chetan@pixelcop.net"
+  s.executables = ["testdrb"]
+  s.files = [
+    "Gemfile",
+    "Gemfile.lock",
+    "Rakefile",
+    "VERSION",
+    "bin/testdrb",
+    "lib/spork/test_framework/micron.rb",
+    "spork-micron.gemspec"
+  ]
   s.homepage = "http://github.com/chetan/spork-micron"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
